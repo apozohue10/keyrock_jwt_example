@@ -40,7 +40,7 @@ services:
       - npm run-script seed_db
 
   chocolate-factory:
-    image: chocolatefactoryjwt
+    image: apozohue10/chocolatefactoryjwt
     ports:
       - "4000:4000"
     networks:
@@ -48,7 +48,7 @@ services:
         ipv4_address: 172.18.1.7
 
   candy-factory:
-    image: candyfactoryjwt
+    image: apozohue10/candyfactoryjwt
     ports:
       - "5000:5000"
     networks:
